@@ -52,18 +52,21 @@ header a:hover{
 section {
     margin-top: 10vh;
     display: flex;
+    flex-direction: column;
+    gap: 5vh;
     justify-content: center;
     align-items: center;
 }
 
 section img {
     height: 90vh;
+
 }
 
 section p {
+
     background-color: transparent;
     width: 60vw;
-    position: absolute;
     text-align: center;
     font-size: 5vw;
 }
